@@ -1,21 +1,26 @@
-Photonic Crystal AND Gate Optimization using Machine Learning
+
+Neural Network Optimization for All-Optical NOT Gate in Photonic Crystals
 
 Overview
 
-Recent advancements in photonic crystals have paved the way for the development of high-speed, low-power optical devices. This repository focuses on a novel application of photonic crystals – the optimization of AND gates, which are fundamental components in digital logic circuits. The approach taken involves leveraging machine learning techniques, specifically the Extra Trees Regressor model, to enhance the performance of these optical gates.
+This repository contains code and resources related to a comprehensive study on the application of neural networks to optimize design parameters for an all-optical NOT gate using photonic crystals. The research focuses on leveraging the unique properties of photonic crystals to control light flow and create small optical devices, specifically the NOT gate in this case.
 
-Methodology
+Research Objectives
 
-We employ the Extra Trees Regressor to train on a comprehensive dataset of simulation results. This dataset encompasses various input configurations and parameter settings. The trained model is then utilized to predict the output power for different input and parameter combinations. The evaluation of the model's accuracy reveals a Root Mean Square Error (RMSE) of 0.18, indicating a high level of precision in predicting output power.
+The primary objectives of this study are as follows:
 
-Parameter Optimization
+* Exploration of Photonic Crystals: Understand the unique properties of photonic crystals and their role in controlling light flow within optical devices.
 
-Having established the reliability of our machine learning model, we proceed to identify optimal parameter settings for the photonic crystal AND gate. The parameters under consideration are the radius of the rods (R) and the lattice constant (x). Through the model, we determine that the optimal values for R and x are 0.05 μm and 0.12 μm, respectively.
+* Neural Network Architecture: Introduce a three-layer neural network architecture designed to forecast crucial parameters necessary for the effective functioning of the NOT gate.
 
-Conditional Calculations and Gate Functionality
+* Optimization of Rod Parameters: Conduct systematic simulations to optimize the radius of the rods (R0 and R1) crucial for the operation of the NOT gate.
 
-The paper delves deeper into the optimization process by employing predictions from the Extra Trees Regressor for conditional calculations. It meticulously examines the impact of key parameters, such as rod radius and lattice constant, on the functionality of the AND gate. Special emphasis is placed on how these parameters contribute to achieving the desired output states.
+* Evaluation of Model Accuracy: Compare the results obtained from the neural network predictions with actual outputs, emphasizing the Mean Absolute Error (MAE) for 'R0' and 'R1' to confirm the precision of the model.
 
-Simulation Results
+Key Findings
 
-The simulation results presented in the paper provide a comprehensive understanding of the efficacy of the optimized parameters in realizing the behavior of an AND gate within the photonic crystal framework. The findings validate the importance of thoughtful parameter selection in achieving desired optical gate outputs.
+The research demonstrates the effectiveness of the neural network in optimizing the rod radius and predicting gate behavior. The main rationale behind utilizing neural networks is to achieve higher prediction accuracy, particularly in handling intricate scenarios involving parameters like the lattice constant and rod radius in photonic crystals.
+
+Results
+
+The systematic simulations and analyses reveal outstanding accuracy, with a Mean Absolute Error of 0.003 for 'R0' and 0.006 for 'R1.' This underscores the model's capability to replicate the behavior of the NOT gate across various input configurations.
