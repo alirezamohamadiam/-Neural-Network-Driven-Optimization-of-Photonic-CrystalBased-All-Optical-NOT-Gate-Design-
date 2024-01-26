@@ -25,6 +25,7 @@ The research demonstrates the effectiveness of the neural network in optimizing 
 Results
 
 The systematic simulations and analyses reveal outstanding accuracy, with a Mean Absolute Error of 0.003 for 'R0' and 0.006 for 'R1.' This underscores the model's capability to replicate the behavior of the NOT gate across various input configurations.
+
 MIT License
 
 Copyright (c) 2024 Alireza Mohammadi
