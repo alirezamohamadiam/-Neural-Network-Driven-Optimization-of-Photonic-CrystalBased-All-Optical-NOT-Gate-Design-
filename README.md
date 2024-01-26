@@ -1,6 +1,6 @@
 "Neural Network-Driven Optimization of Photonic Crystal-Based All-Optical NOT Gate Design"
 
-This research paper have been accepted for presentation at the prestigious Third International IEEE Conference on Distributed Computing and High-Performance Computing (DCHPC2024)!
+Accepted for presentation at the prestigious Third International IEEE Conference on Distributed Computing and High-Performance Computing (DCHPC2024)
 
 Overview
 
