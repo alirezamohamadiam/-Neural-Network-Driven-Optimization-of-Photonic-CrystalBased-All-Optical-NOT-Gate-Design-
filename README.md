@@ -33,6 +33,8 @@ The following software and libraries are required to run this project:
 - tensorflow version: 2.15.0
 - scikit-learn version: 1.2.2
 
+## License
+
 MIT License
 
 Copyright (c) 2024 Alireza Mohammadi
