@@ -26,6 +26,15 @@ Results
 
 The systematic simulations and analyses reveal outstanding accuracy, with a Mean Absolute Error of 0.003 for 'R0' and 0.006 for 'R1.' This underscores the model's capability to replicate the behavior of the NOT gate across various input configurations.
 
+## Prerequisites
+Python version: 3.10.12
+pandas version: 1.5.3
+numpy version: 1.23.5
+tensorflow version: 2.15.0
+scikit-learn version: 1.2.2
+Numpy version: 1.23.5
+Scikit-learn version: 1.2.2
+
 MIT License
 
 Copyright (c) 2024 Alireza Mohammadi
